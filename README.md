@@ -26,7 +26,7 @@ iv. Compute gradients to update the low-dimensional embeddings
 
 v. Update embeddings using momentum-based gradient descent 
 
-3. Hyperparameter Tuning and Evaluation
+2. Hyperparameter Tuning and Evaluation
 Run t-SNE with different hyperparameters:
 Learning rate (λ),
 Momentum (α),
