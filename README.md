@@ -15,13 +15,18 @@ Labels represent 10 different classes of clothing items.
 Implementation Workflow
 
 1. Building t-SNE from Scratch
+   
 i. Implement pairwise similarities in high-dimensional space using the Gaussian function
+
 ​ii. Compute pairwise similarities in low-dimensional space using the Student-t distribution
+
 ​iii. Optimize the Kullback-Leibler divergence loss
+
 iv. Compute gradients to update the low-dimensional embeddings
+
 v. Update embeddings using momentum-based gradient descent 
 
-2. Hyperparameter Tuning and Evaluation
+3. Hyperparameter Tuning and Evaluation
 Run t-SNE with different hyperparameters:
 Learning rate (λ),
 Momentum (α),
